@@ -31,5 +31,6 @@ HINT: Test first FTW!
 
 1. Wrote this README.
 2. Read the legacy code.
-3. Digested everything.
-4. 
+3. Digested everything and diagrammed the legacy code.
+4. Wrote tests for the legacy code.
+5. Ensured these were passing.
