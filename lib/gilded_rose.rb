@@ -1,4 +1,4 @@
-require 'updater_factory'
+require_relative 'updater_factory'
 
 class GildedRose
 

@@ -1,7 +1,7 @@
-require 'brie_updater'
-require 'sulfuras_updater'
-require 'backstage_pass_updater'
-require 'regular_updater'
+require_relative 'brie_updater'
+require_relative 'sulfuras_updater'
+require_relative 'backstage_pass_updater'
+require_relative 'regular_updater'
 
 class UpdaterFactory
 
