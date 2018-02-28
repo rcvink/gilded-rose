@@ -32,5 +32,13 @@ HINT: Test first FTW!
 1. Wrote this README.
 2. Read the legacy code.
 3. Digested everything and diagrammed the legacy code.
-4. Wrote tests for the legacy code.
+4. Wrote tests for the legacy update_quality method.
 5. Ensured these were passing.
+6. Diagrammed my solution:
+
+```To be included```
+
+7. Extracted code into new classes.
+8. Refactored the update_quality method to use new classes.
+9. Ensured tests for update_quality were still passing.
+10. Added functionality for "Conjured" items.
