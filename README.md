@@ -2,6 +2,10 @@
 
 This repository stores a possible solution to the [Gilded Rose kata](https://github.com/emilybache/GildedRose-Refactoring-Kata). This was done for practice.
 
+## Getting Started
+
+``` To do ```
+
 ## Kata
 
 *"Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a prominent city run by a friendly innkeeper named Allison. We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new adventures. Your task is to add the new feature to our system so that we can begin selling a new category of items. First an introduction to our system:
@@ -41,4 +45,9 @@ HINT: Test first FTW!
 7. Extracted code into new classes.
 8. Refactored the update_quality method to use new classes.
 9. Ensured legacy tests for update_quality were still passing.
-10. Added functionality for "Conjured" items.
+10. Removed superfluous legacy tests.
+11. Added functionality for "Conjured" items.
+
+## Next steps
+
+``` To do ```
