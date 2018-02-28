@@ -1,5 +1,5 @@
-require_relative '../lib/gilded_rose'
 require_relative '../lib/brie_updater'
+require_relative '../lib/item'
 
 describe BrieUpdater do
 

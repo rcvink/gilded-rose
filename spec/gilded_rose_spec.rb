@@ -1,4 +1,5 @@
 require_relative '../lib/gilded_rose'
+require_relative '../lib/item'
 
 describe GildedRose do
 

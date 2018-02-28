@@ -1,5 +1,5 @@
-require_relative '../lib/gilded_rose'
 require_relative '../lib/sulfuras_updater'
+require_relative '../lib/item'
 
 describe SulfurasUpdater do
 
