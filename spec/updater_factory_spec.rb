@@ -7,6 +7,7 @@ describe UpdaterFactory do
   brie = Item.new('Aged Brie', 3, 5)
   sulfuras = Item.new('Sulfuras, Hand of Ragnaros', 5, 40)
   pass = Item.new('Backstage passes to a TAFKAL80ETC concert', 4, 20)
+  conjured = Item.new('Conjured thing', 4, 6)
   regular = Item.new('Reggie', 4, 6)
 
   it 'returns a BrieUpdater' do
@@ -19,6 +20,10 @@ describe UpdaterFactory do
 
   it 'returns a BackstagePassUpdater' do
     expect(updater_factory.create(pass)).to be_instance_of BackstagePassUpdater
+  end
+
+  it 'returns a ConjuredUpdater' do
+    expect(updater_factory.create(conjured)).to be_instance_of ConjuredUpdater
   end
 
   it 'returns a RegularUpdater' do
