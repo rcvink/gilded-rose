@@ -40,5 +40,5 @@ HINT: Test first FTW!
 
 7. Extracted code into new classes.
 8. Refactored the update_quality method to use new classes.
-9. Ensured tests for update_quality were still passing.
+9. Ensured legacy tests for update_quality were still passing.
 10. Added functionality for "Conjured" items.
