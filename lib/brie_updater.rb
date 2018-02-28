@@ -18,11 +18,11 @@ class BrieUpdater
   private
 
   def max_quality?
-    return @brie.quality >= 50
+    @brie.quality >= 50
   end
 
   def past_sell_by?
-    return @brie.sell_in <= 0
+    @brie.sell_in <= 0
   end
 
   def decrement_sell_in

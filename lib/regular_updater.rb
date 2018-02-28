@@ -18,11 +18,11 @@ class RegularUpdater
   private
 
   def min_quality?
-    return @item.quality <= 0
+    @item.quality <= 0
   end
 
   def past_sell_by?
-    return @item.sell_in <= 0
+    @item.sell_in <= 0
   end
 
   def decrement_quality_by(amount)
