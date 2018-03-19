@@ -4,7 +4,10 @@ This repository stores a possible solution to the [Gilded Rose kata](https://git
 
 ## Getting Started
 
-``` To do ```
+1. Clone this repo.
+2. Run `bundle` to install RSpec.
+3. Run `rspec` to see tests.
+4. `ruby texttest_fixture.rb` to see example usage.
 
 ## Kata
 
@@ -42,12 +45,8 @@ HINT: Test first FTW!
 
 ```To be included```
 
-7. Extracted code into new classes.
+7. Extracted code into new classes using TDD.
 8. Refactored the update_quality method to use new classes.
 9. Ensured legacy tests for update_quality were still passing.
 10. Removed superfluous legacy tests.
 11. Added functionality for "Conjured" items.
-
-## Next steps
-
-``` To do ```
